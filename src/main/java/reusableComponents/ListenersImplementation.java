@@ -35,7 +35,7 @@ public class ListenersImplementation extends ObjectRepo implements ITestListener
 	public void onTestFailure(ITestResult result) {
 		test.log(Status.FAIL, "Test case:"+result.getMethod().getMethodName()+"is failed.");
 		test.log(Status.FAIL, result.getThrowable());
-		SimpleDateFormat dateformat=new SimpleDateFormat("dd-MM-yyy HH:mm:ss");
+		SimpleDateFormat dateformat=new SimpleDateFormat("dd-MM-yyy HH-mm-ss");
 		Date date=new Date();
 		String currentDateAndTime=dateformat.format(date);
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

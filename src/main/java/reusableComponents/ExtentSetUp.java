@@ -12,7 +12,7 @@ import testBase.ObjectRepo;
 
 public class ExtentSetUp extends ObjectRepo{
 	public static  ExtentReports setUpExtentReport() {
-		SimpleDateFormat dateformat=new SimpleDateFormat("dd-MM-yyy HH:mm:ss");
+		SimpleDateFormat dateformat=new SimpleDateFormat("dd-MM-yyy HH-mm-ss");
 		Date date=new Date();
 		String currentDateAndTime=dateformat.format(date);
 		

@@ -39,7 +39,9 @@ public class ListenersImplementation extends ObjectRepo implements ITestListener
 		Date date=new Date();
 		String currentDateAndTime=dateformat.format(date);
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String screenshotPath=System.getProperty("user.dir")+"/Reports/Screenshots/report_"+currentDateAndTime+".jpeg";
+		//String screenshotPath=System.getProperty("user.dir")+"/Reports/Screenshots/report_"+currentDateAndTime+".jpeg";
+		String screenshotPath=System.getProperty("user.dir")+File.separator+"Reports"+
+		File.separator+"Screenshots"+File.separator+"report_"+currentDateAndTime+".jpeg";
 		File des=new File(screenshotPath);
 		try {
 			FileUtils.copyFile(src, des);

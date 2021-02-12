@@ -1,5 +1,6 @@
 package reusableComponents;
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -15,7 +16,8 @@ public class ExtentSetUp extends ObjectRepo{
 		Date date=new Date();
 		String currentDateAndTime=dateformat.format(date);
 		
-		String reportPath=System.getProperty("user.dir")+"/Reports/report_"+currentDateAndTime+".html";
+		//String reportPath=System.getProperty("user.dir")+"/Reports/report_"+currentDateAndTime+".html";
+		String reportPath=System.getProperty("user.dir")+File.separator+"Reports"+File.separator+"report_"+currentDateAndTime+".html";
 		ExtentSparkReporter sparkreporter= new ExtentSparkReporter(reportPath);
 		extent = new ExtentReports();
 		extent.attachReporter(sparkreporter);

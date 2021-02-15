@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17576" started-at="2021-02-14T23:21:42 PST" finished-at="2021-02-14T23:21:59 PST">
+  <suite name="Suite" duration-ms="20246" started-at="2021-02-15T11:14:45 PST" finished-at="2021-02-15T11:15:05 PST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17576" started-at="2021-02-14T23:21:42 PST" finished-at="2021-02-14T23:21:59 PST">
+    <test name="Test" duration-ms="20246" started-at="2021-02-15T11:14:45 PST" finished-at="2021-02-15T11:15:05 PST">
       <class name="homePageTestCases.HomePageHeaderTestCase">
-        <test-method status="PASS" signature="setupMethod()[pri:0, instance:homePageTestCases.HomePageHeaderTestCase@33f88ab]" name="setupMethod" is-config="true" duration-ms="2876" started-at="2021-02-14T23:21:56 PST" finished-at="2021-02-14T23:21:59 PST">
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:homePageTestCases.HomePageHeaderTestCase@33f88ab]" name="setupMethod" is-config="true" duration-ms="4051" started-at="2021-02-15T11:15:01 PST" finished-at="2021-02-15T11:15:05 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="verifyHeader()[pri:0, instance:homePageTestCases.HomePageHeaderTestCase@33f88ab]" name="verifyHeader" duration-ms="495" started-at="2021-02-14T23:21:59 PST" finished-at="2021-02-14T23:21:59 PST">
+        <test-method status="PASS" signature="verifyHeader()[pri:0, instance:homePageTestCases.HomePageHeaderTestCase@33f88ab]" name="verifyHeader" duration-ms="223" started-at="2021-02-15T11:15:05 PST" finished-at="2021-02-15T11:15:05 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHeader -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:homePageTestCases.HomePageHeaderTestCase@33f88ab]" name="tearDown" is-config="true" duration-ms="160" started-at="2021-02-14T23:21:59 PST" finished-at="2021-02-14T23:21:59 PST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:homePageTestCases.HomePageHeaderTestCase@33f88ab]" name="tearDown" is-config="true" duration-ms="178" started-at="2021-02-15T11:15:05 PST" finished-at="2021-02-15T11:15:05 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- homePageTestCases.HomePageHeaderTestCase -->
       <class name="homePageTestCases.VerifySignInErrorMessage">
-        <test-method status="PASS" signature="setupMethod()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="setupMethod" is-config="true" duration-ms="4817" started-at="2021-02-14T23:21:42 PST" finished-at="2021-02-14T23:21:47 PST">
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="setupMethod" is-config="true" duration-ms="5967" started-at="2021-02-15T11:14:45 PST" finished-at="2021-02-15T11:14:51 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="signinError()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="signinError" duration-ms="2481" started-at="2021-02-14T23:21:47 PST" finished-at="2021-02-14T23:21:50 PST">
+        <test-method status="PASS" signature="signinError()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="signinError" duration-ms="2383" started-at="2021-02-15T11:14:51 PST" finished-at="2021-02-15T11:14:54 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signinError -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="tearDown" is-config="true" duration-ms="209" started-at="2021-02-14T23:21:50 PST" finished-at="2021-02-14T23:21:50 PST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="tearDown" is-config="true" duration-ms="205" started-at="2021-02-15T11:14:54 PST" finished-at="2021-02-15T11:14:54 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setupMethod()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="setupMethod" is-config="true" duration-ms="3239" started-at="2021-02-14T23:21:50 PST" finished-at="2021-02-14T23:21:53 PST">
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="setupMethod" is-config="true" duration-ms="4060" started-at="2021-02-15T11:14:54 PST" finished-at="2021-02-15T11:14:58 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="FAIL" signature="signinError1()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="signinError1" duration-ms="2136" started-at="2021-02-14T23:21:53 PST" finished-at="2021-02-14T23:21:55 PST">
+        <test-method status="FAIL" signature="signinError1()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="signinError1" duration-ms="2029" started-at="2021-02-15T11:14:58 PST" finished-at="2021-02-15T11:15:00 PST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[error message is not expected expected [There ] but found [There was a problem]]]>
@@ -84,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signinError1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="tearDown" is-config="true" duration-ms="204" started-at="2021-02-14T23:21:56 PST" finished-at="2021-02-14T23:21:56 PST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:homePageTestCases.VerifySignInErrorMessage@2833cc44]" name="tearDown" is-config="true" duration-ms="191" started-at="2021-02-15T11:15:00 PST" finished-at="2021-02-15T11:15:01 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
